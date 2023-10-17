@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter",
+    title: "De moderne relatiecoach",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "De moderne relatiecoach is een coachingspraktijk voor mensen die worstelen met hun relatie. Ik help je om je relatie te verbeteren en jezelf te ontwikkelen.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -39,40 +39,6 @@ module.exports = {
     `gatsby-plugin-image`,
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-relative-images",
-            options: {
-              name: "uploads",
-            },
-          },
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 2048,
-            },
-          },
-          {
-            resolve: "gatsby-remark-copy-linked-files",
-            options: {
-              destinationDir: "static",
-            },
-          },
-        ],
-      },
-    },
-    {
-      resolve: "gatsby-plugin-netlify-cms",
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-      },
-    },
     {
       resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
       options: {
