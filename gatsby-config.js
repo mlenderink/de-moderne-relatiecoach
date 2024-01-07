@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "De moderne relatiecoach",
+    title: "De Moderne Relatiecoach",
     description:
       "De moderne relatiecoach is een coachingspraktijk voor mensen die worstelen met hun relatie. Ik help je om je relatie te verbeteren en jezelf te ontwikkelen.",
   },
