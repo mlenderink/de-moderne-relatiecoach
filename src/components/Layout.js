@@ -48,7 +48,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
 
-      <div>{children}</div>
+      <div className="min-h-screen flex flex-col">{children}</div>
     </div>
   );
 };

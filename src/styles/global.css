@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Brandon Grotesque Light";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/brandon_grotesque_light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Brandon Grotesque Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/brandon_grotesque_medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avallon All Caps";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/avallon_all_caps.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Iskry One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/iskry_one.woff2") format("woff2");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 16px;
+  font-family: "Brandon Grotesque Light";
+}
