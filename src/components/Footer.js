@@ -9,10 +9,10 @@ const Footer = () => {
           <Logo type="white" className="w-48 h-48" />
           <div className="flex flex-col justify-center border-l-2 pl-8">
             <div>De Moderne Relatiecoach</div>
-            <div>Augustijnenstraat 21</div>
-            <div>6511 KD Nijmegen</div>
+            <div>Rianne Driezes</div>
             <div>info@demodernerelatiecoach.nl</div>
             <div>0611927745</div>
+            <div>KvK: 85676497</div>
           </div>
         </div>
 
