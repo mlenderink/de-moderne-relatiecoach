@@ -18,5 +18,5 @@ module.exports = {
       iskry: "Iskry One",
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

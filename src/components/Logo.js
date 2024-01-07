@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const Logo = ({ type, className }) => {
+const Logo = ({ type, href, className }) => {
   let src = "/img/logo_de_moderne_relatiecoach_red.png";
   switch (type) {
     case "white":
@@ -11,9 +11,17 @@ const Logo = ({ type, className }) => {
       break;
   }
 
-  return (
-    <img src={src} alt="De moderne relatiecoach logo" className={className} />
-  );
+  const renderLogo = () => {
+    return (
+      <img src={src} alt="De moderne relatiecoach logo" className={className} />
+    );
+  };
+
+  if (href) {
+    return <a href={href}>{renderLogo()}</a>;
+  }
+
+  return renderLogo();
 };
 
 export default Logo;

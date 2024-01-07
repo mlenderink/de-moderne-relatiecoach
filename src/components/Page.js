@@ -1,12 +1,11 @@
 import * as React from "react";
-import Logo from "./Logo";
 
-const Content = () => {
+const Page = ({ children }) => {
   return (
     <div className="w-full flex-grow flex justify-center">
-      <div className="container flex"></div>
+      <div className="container flex flex-col">{children}</div>
     </div>
   );
 };
 
-export default Content;
+export default Page;
