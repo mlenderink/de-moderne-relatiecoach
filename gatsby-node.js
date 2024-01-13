@@ -33,4 +33,10 @@ exports.createPages = ({ actions, graphql }) => {
     component: path.resolve(`src/templates/contact-page.js`),
     context: {},
   });
+
+  createPage({
+    path: "/thank-you",
+    component: path.resolve(`src/templates/thank-you-page.js`),
+    context: {},
+  });
 };
