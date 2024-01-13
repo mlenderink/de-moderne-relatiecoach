@@ -9,6 +9,7 @@ module.exports = {
         champagne: "#f9dbd1",
         red: "#f8252c",
         sunset: "#ff5a5a",
+        gray: "#ebcdc1",
       },
     },
     fontFamily: {
