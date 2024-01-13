@@ -13,27 +13,25 @@ const Header = () => {
           <div className="flex-1 hidden md:flex justify-center items-center uppercase">
             <ul className="flex">
               <li className="mr-6">
-                <a className="text-red hover:text-sunset" href="#">
+                <a
+                  className="text-red hover:text-sunset"
+                  href="/moderne-relatie"
+                >
                   Moderne relatie?!
                 </a>
               </li>
               <li className="mr-6">
-                <a className="text-red hover:text-sunset" href="#">
+                <a className="text-red hover:text-sunset" href="/aanbod">
                   Aanbod
                 </a>
               </li>
               <li className="mr-6">
-                <a className="text-red hover:text-sunset" href="#">
-                  Blogs
-                </a>
-              </li>
-              <li className="mr-6">
-                <a className="text-red hover:text-sunset" href="#">
+                <a className="text-red hover:text-sunset" href="/mijn-verhaal">
                   Mijn verhaal
                 </a>
               </li>
               <li className="mr-6">
-                <a className="text-red hover:text-sunset" href="#">
+                <a className="text-red hover:text-sunset" href="/contact">
                   Contact
                 </a>
               </li>
@@ -41,35 +39,16 @@ const Header = () => {
           </div>
           <div className="flex-none uppercase md:hidden">
             <Menu right>
-              <a id="home" className="text-red hover:text-sunset" href="/">
+              <a className="text-red hover:text-sunset" href="moderne-relatie">
                 Moderne relatie?!
               </a>
-              <a
-                id="about"
-                className="text-red hover:text-sunset"
-                href="/about"
-              >
+              <a className="text-red hover:text-sunset" href="/aanbod">
                 Aanbod
               </a>
-              <a
-                id="contact"
-                className="text-red hover:text-sunset"
-                href="/contact"
-              >
-                Blogs
-              </a>
-              <a
-                id="contact"
-                className="text-red hover:text-sunset"
-                href="/contact"
-              >
+              <a className="text-red hover:text-sunset" href="/mijn-verhaal">
                 Mijn verhaal
               </a>
-              <a
-                id="contact"
-                className="text-red hover:text-sunset"
-                href="/contact"
-              >
+              <a className="text-red hover:text-sunset" href="/contact">
                 Contact
               </a>
             </Menu>

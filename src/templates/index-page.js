@@ -77,7 +77,7 @@ const IndexPage = ({ data }) => {
               anderen bij het vormgeven van hun relatie.
             </p>
             <div className="text-center pt-8">
-              <Button href="#">Lees verder</Button>
+              <Button href="/mijn-verhaal">Lees verder</Button>
             </div>
             <div className="border border-red m-8"></div>
           </div>
@@ -91,7 +91,7 @@ const IndexPage = ({ data }) => {
               relatie met jezelf..
             </p>
             <div className="text-center pt-8">
-              <Button href="#">Lees meer</Button>
+              <Button href="/moderne-relatie">Lees meer</Button>
             </div>
             <div className="border border-red m-8"></div>
           </div>
@@ -109,7 +109,7 @@ const IndexPage = ({ data }) => {
               technieken en huiswerkopdrachten boeken jullie samen resultaat.
             </p>
             <div className="text-center pt-8">
-              <Button href="#">Bekijk het aanbod</Button>
+              <Button href="/aanbod">Bekijk het aanbod</Button>
             </div>
             <div className="border border-red m-8"></div>
           </div>
@@ -122,7 +122,7 @@ const IndexPage = ({ data }) => {
               vertel wat ik daar eventueel in kan betekenen.
             </p>
             <div className="text-center pt-8">
-              <Button href="#">Kennismaking plannen</Button>
+              <Button href="/contact">Kennismaking plannen</Button>
             </div>
             <div className="border border-red m-8"></div>
           </div>
