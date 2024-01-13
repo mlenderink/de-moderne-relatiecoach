@@ -11,8 +11,8 @@ const IndexPage = ({ data }) => {
     <Layout>
       <Header />
       <Page>
-        <div className="w-full py-8 flex flex-col justify-center items-center bg-cover bg-bottom bg-[url('/img/header_home_1.png')]">
-          <Logo type={"white"} className="w-96 h-72" />
+        <div className="w-full py-8 flex flex-col justify-center items-center bg-cover bg-[url('/img/header_home_4.png')]">
+          <Logo type={"white"} className="h-72" />
           <div className="pb-8">
             <Button style={"gray"} href="#">
               Let's meet
